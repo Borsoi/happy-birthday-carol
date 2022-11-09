@@ -1,0 +1,55 @@
+* {
+    padding: 1%;
+    margin: 0;
+}
+
+html {
+    background-image: url('../images/fireworks.gif');
+    background-position: center;
+    background-repeat: repeat;
+    text-align: center;
+    height: 70%;
+}
+
+
+h1 {
+    animation: frame 1s linear;
+    animation-name: slow-show;
+}
+
+h2 {
+    animation: frame 2s linear;
+    animation-name: slow-show;
+    padding: 0.3%;
+}
+
+.imagem-aniversario {
+    animation: frame 1.5s linear;
+    animation-name: slow-show;
+    height: 50%;
+    width: 50%;
+}
+@keyframes slow-show {
+    0% {
+        transform: scale(0.2);
+        opacity: 0;
+    }
+
+    35% {
+        transform: scale(0.5);
+        opacity: 0.7;
+    }
+
+    80% {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
